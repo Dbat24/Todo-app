@@ -5,7 +5,7 @@ import pkg from 'pg';
 import "dotenv/config";
 
 const app = express();
-const port = process.env.PORT || 3000; // Use env var for port in production
+const port = process.env.PORT || 4000; // Use env var for port in production
 
 const { Client } = pkg;
 
